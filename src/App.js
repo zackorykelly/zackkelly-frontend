@@ -39,7 +39,10 @@ function App() {
             </header>
           </Route>
           <Route path="/contact" exact>
-            <h1>Contact Me</h1>
+            <header className="App-header">
+              <h1>Contact Me</h1>
+              <p>Coming Soon</p>
+            </header>
           </Route>
         </Switch>
       </div>
